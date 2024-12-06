@@ -27,7 +27,7 @@ export default {
         accentShadow: '0 4px 10px rgba(255, 140, 66, 0.4)', // Accent shadow using #FF8C42
       },
       screens: {
-        sm: '375px',   // Small devices (e.g., smaller mobile screens)
+        sm: '435px',   // Small devices (e.g., smaller mobile screens)
         md: '900px',   // Medium devices (e.g., tablets or small laptops)
         lg: '1200px',  // Large devices (e.g., desktops)
         xl: '1440px',  // Extra-large screens (e.g., high-resolution desktops)
