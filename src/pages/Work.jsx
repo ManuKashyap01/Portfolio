@@ -19,7 +19,7 @@ const Work = () => {
   }
   const [active, setActive] = useState(0)
   return (
-    <div className='sm:mt-10'>
+    <div className='sm:mt-10 mt-6'>
       <Project project={Projects[active]}/>
       <div className='flex gap-3 mt-4'>
         <button className='p-3 rounded-md shadow-soft text-center text-xl bg-accent-action' onClick={handleLeftClick}><FaChevronLeft/></button>

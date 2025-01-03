@@ -3,6 +3,8 @@ import { PiHeadCircuitFill } from "react-icons/pi";
 import { RiFileExcel2Fill } from "react-icons/ri";
 import { FaHtml5,FaCss3,FaReact,FaNodeJs } from "react-icons/fa";
 import project_1 from './project_1.png'
+import project_2 from './project_2.png'
+import project_3 from './project_3.png'
 export const Experience = [
     {
         year:'2024-Present',
@@ -79,30 +81,30 @@ export const Blogs = [
 export const Projects = [
     {
         id:1,
-        title:'Frontend Project',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quidem ratione unde dignissimos nam cupiditate.',
-        techStack:'HTML, CSS, JavaScript, React.js, Framer motion',
-        liveURL:'https://edplatform.netlify.app/',
-        githubURL:'https://github.com/ManuKashyap01/Education_platform',
+        title:'Data Analysis Project 1',
+        desc:'This is a detailed supply chain analysis developed for a fashion and beauty startup.',
+        techStack:'Python, Data Analysis, Data Cleaning',
+        // liveURL:'https://edplatform.netlify.app/',
+        githubURL:'https://github.com/ManuKashyap01/Supply_chain_analysis',
         img:project_1,
     },
     {
         id:2,
-        title:'Backend Project',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quidem ratione unde dignissimos nam cupiditate.',
-        techStack:'HTML, CSS, JavaScript, React.js, Framer motion',
-        liveURL:'https://edplatform.netlify.app/',
-        githubURL:'https://github.com/ManuKashyap01/Education_platform',
-        img:project_1,
+        title:'Data Analysis Project 2',
+        desc:"This is an in-depth Netflix content analysis for 2023, to uncover trends and patterns in the platform's offerings.",
+        techStack:'Python, Data Analysis, Data Cleaning',
+        // liveURL:'https://edplatform.netlify.app/',
+        githubURL:'https://github.com/ManuKashyap01/Netflix_Data_Analysis',
+        img:project_2,
     },
     {
         id:3,
-        title:'Fullstack Project',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quidem ratione unde dignissimos nam cupiditate.',
+        title:'Frontend Project',
+        desc:"This is a modern, frontend-focused education platform built using ReactJS, TailwindCSS, and Framer Motion.",
         techStack:'HTML, CSS, JavaScript, React.js, Framer motion',
         liveURL:'https://edplatform.netlify.app/',
         githubURL:'https://github.com/ManuKashyap01/Education_platform',
-        img:project_1,
+        img:project_3,
     },
     {
         id:4,
