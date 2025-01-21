@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-      <div className="w-full p-5 max-w-[900px] mx-auto">
+      <div className="w-full py-5 px-6 sm:px-5 sm:max-w-[900px] mx-auto">
         <Navbar/>
         <Routes>
           <Route path="/" element={<Home/>}/>

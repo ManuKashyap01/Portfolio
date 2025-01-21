@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
     <div className='flex justify-between w-full items-center'>
         {/* logo */}
-        <h1 className="text-lg font-bold">Manu <span className="text-accent-action">.</span></h1>
+        <h1 className="text-lg font-bold">Manu <span className="text-accent-taupe">.</span></h1>
         {/* desktop */}
         <div className="sm:block hidden">
             <ul className='flex gap-5'>

@@ -8,20 +8,20 @@ export default {
     extend: {
       colors: {
         primary: {
-          background: '#CFDBD5',
+          background: '#F9E6CF',
           topography: '#E8EDDF',
-          event: '#F5CB5C',
+          event: '#FAC67A',
           shadow: '#242423',
           secondaryShadow: '#333533',
         },
         accent: {
-          sage: '#A3BFA8',
-          taupe: '#8E8C84',
-          action: '#FF8C42',
+          sage: '#363062',
+          taupe: '#DA498D',
+          action: '#69247C',
         },
       },
       boxShadow: {
-        soft: '0 4px 6px -1px rgba(51, 53, 51, 0.1), 0 2px 4px -1px rgba(51, 53, 51, 0.06)', // Soft shadow using #333533
+        soft: '0 4px 6px -1px #3335331A, 0 2px 4px -1px #33353340', // Soft shadow using #333533
         medium: '0 5px 15px rgba(36, 36, 35, 0.2)', // Medium shadow using #242423
         eventGlow: '0 0 10px rgba(245, 203, 92, 0.5)', // Highlighted glow using #F5CB5C
         accentShadow: '0 4px 10px rgba(255, 140, 66, 0.4)', // Accent shadow using #FF8C42

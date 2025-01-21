@@ -15,7 +15,7 @@ const Resume = () => {
     },
     {
       title:'Skills',
-      desc:'My skills include programming languages such as Python, C/C++, and JavaScript. In web development, I have experience with HTML, CSS, React.js, and Node.js. I am proficient in MySQL for database management and have decent knowledge of Machine Learning (ML). Additionally, I am skilled in using Excel for data analysis.',
+      desc:'My skills include programming languages such as Python, C/C++, and JavaScript. In web development, I have experience with HTML, CSS, React.js, and Node.js. I am proficient in MySQL for database management and have decent knowledge of Machine Learning (ML).',
       comp:<SkillComp/>
     },
     {
@@ -33,7 +33,7 @@ const Resume = () => {
         <p className='sm:my-6 my-4 text-md'>With a Master's in Data Science and experience as a Software Developer at Corning Inc., I bring strong skills in Python, Machine Learning, web development, and data analysis.</p>
         <div className='flex flex-col items-stretch gap-4'>
           {options.map((item,index)=>{
-            return <button key={index} onClick={()=>setActive(item.title)} className={`shadow-soft rounded-md py-2 ${item.title === active ? 'bg-primary-event':''}`}>{item.title}</button>
+            return <button key={index} onClick={()=>setActive(item.title)} className={`shadow-soft uppercase font-medium rounded-md py-2 ${item.title === active && 'bg-primary-event'}`}>{item.title}</button>
           })}
         </div>
       </div>
@@ -45,7 +45,7 @@ const Resume = () => {
             })
             .map((item)=>{
               return <div key={item.title} className="">
-                <h1 className="text-3xl">{item.title}</h1>
+                <h1 className="text-3xl uppercase font-medium">{item.title}</h1>
                 <p className="my-4 text-md">{item.desc}</p>
                 <div className='sm:max-h-[50vh] p-2 overflow-auto resume_items'>{item.comp}</div>
               </div>

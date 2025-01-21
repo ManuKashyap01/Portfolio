@@ -5,6 +5,7 @@ import { FaHtml5,FaCss3,FaReact,FaNodeJs } from "react-icons/fa";
 import project_1 from './project_1.png'
 import project_2 from './project_2.png'
 import project_3 from './project_3.png'
+import project_4 from './project_4.png'
 export const Experience = [
     {
         year:'2024-Present',
@@ -91,7 +92,7 @@ export const Projects = [
     {
         id:2,
         title:'Data Analysis Project 2',
-        desc:"This is an in-depth Netflix content analysis for 2023, to uncover trends and patterns in the platform's offerings.",
+        desc:"This is a Netflix content analysis for 2023, to uncover trends and patterns on the platform.",
         techStack:'Python, Data Analysis, Data Cleaning',
         // liveURL:'https://edplatform.netlify.app/',
         githubURL:'https://github.com/ManuKashyap01/Netflix_Data_Analysis',
@@ -108,11 +109,11 @@ export const Projects = [
     },
     {
         id:4,
-        title:'Data Science Project',
-        desc:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Est quidem ratione unde dignissimos nam cupiditate.',
-        techStack:'HTML, CSS, JavaScript, React.js, Framer motion',
-        liveURL:'https://edplatform.netlify.app/',
-        githubURL:'https://github.com/ManuKashyap01/Education_platform',
-        img:project_1,
+        title:'Full Stack Project',
+        desc:'Blog post full stack application complete with login, signup, authorization, authentication and CRUD operations',
+        techStack:'React.js, Node.js, Express.js, MongoDB',
+        liveURL:'https://blogifyd.netlify.app/',
+        githubURL:'https://github.com/ManuKashyap01/Blogify',
+        img:project_4,
     },
 ]

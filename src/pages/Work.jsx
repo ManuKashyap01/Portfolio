@@ -22,8 +22,8 @@ const Work = () => {
     <div className='sm:mt-10 mt-6'>
       <Project project={Projects[active]}/>
       <div className='flex gap-3 mt-4'>
-        <button className='p-3 rounded-md shadow-soft text-center text-xl bg-accent-action' onClick={handleLeftClick}><FaChevronLeft/></button>
-        <button className='p-3 rounded-md shadow-soft text-center text-xl bg-accent-action' onClick={handleRightClick}><FaChevronRight/></button>
+        <button className='p-3 rounded-md shadow-soft text-center text-xl bg-accent-taupe text-primary-background hover:bg-primary-event hover:text-accent-taupe' onClick={handleLeftClick}><FaChevronLeft/></button>
+        <button className='p-3 rounded-md shadow-soft text-center text-xl bg-accent-taupe text-primary-background hover:bg-primary-event hover:text-accent-taupe' onClick={handleRightClick}><FaChevronRight/></button>
       </div>
     </div>
   )
