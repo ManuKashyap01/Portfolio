@@ -1,5 +1,4 @@
 import React from 'react'
-import photo from "../assets/profile.jpg"
 import profile_4 from "../assets/profile_4.jpg"
 
 import { FaGithub,FaLinkedin } from "react-icons/fa";
